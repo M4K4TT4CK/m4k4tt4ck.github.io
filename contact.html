@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>State of Georgia</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="icon" href="./images/Georgia-Flag.ico">
+</head>
+<header>
+    <div class="container">
+        <h1 id="mainHeader">Georgia State</h1>
+    </div>
+</header>
+
+<body>
+    <div class="clr"></div>
+    <nav id="navbar">
+        <div id="nav">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./atlanta.html">Atlanta</a></li>
+                <li><a href="./savannah.html">Savannah</a></li>
+                <li><a href="./columbus.html">Columbus</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="bannerCon" alt="image of atlanta skyline">
+        <div class="container">
+            <h1>
+                Drop us a message!!
+            </h1>
+        </div>
+    </section>
+    <div class="container">
+        <form id="contactForm">
+            <fieldset>
+                <!-- Form Name -->
+                <legend>Contact Us!</legend>
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="firstname">First Name</label>
+                    <div class="col-md-4">
+                        <input id="firstname" name="firstname" type="text" placeholder="First Name"
+                            class="form-control input-md" required="">
+                    </div>
+                </div>
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="lastName">Last Name</label>
+                    <div class="col-md-4">
+                        <input id="lastName" name="lastName" type="text" placeholder="Last Name"
+                            class="form-control input-md" required="">
+                    </div>
+                </div>
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="emailAddress">Email Address</label>
+                    <div class="col-md-4">
+                        <input id="emailAddress" name="emailAddress" type="text" placeholder="youremail@email.com"
+                            class="form-control input-md" required="">
+                    </div>
+                </div>
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="confirmEmail">Confirm Email Address</label>
+                    <div class="col-md-4">
+                        <input id="confirmEmail" name="confirmEmail" type="text" placeholder="Re-enter email address"
+                            class="form-control input-md" required="">
+                    </div>
+                </div>
+                <!-- Textarea -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textarea">Ask your Question!</label>
+                    <div class="col-md-4">
+                        <textarea class="form-control" id="textarea"
+                            name="textarea"></textarea>
+                    </div>
+                </div>
+                <span id="error" class="error"></span>
+                <br>
+                <!-- Button (Double) -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="submitButton"></label>
+                    <div class="col-md-8">
+                        <button id="submitButton" name="submitButton" class="btn btn-success">Submit</button>
+                        <button id="clearButton" name="clearButton" class="btn btn-danger">Clear Fields</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <aside id="visitors">
+            <table class="visitorTable">
+                <thead>
+                    <tr>
+                        <th colspan="3"><h1>Recent Visitors</h1></th>
+                    </tr>
+                  <tr>
+                    <th>Number</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1234</td>
+                    <td>John Smith</td>
+                    <td>j.smith@coolemail.com</td>
+                  </tr>
+                  <tr>
+                    <td>1235</td>
+                    <td>Jane Smith</td>
+                    <td>jane.s@notcoolemail.com</td>
+                  </tr>
+                  <tr>
+                    <td>1236</td>
+                    <td>Mary Sue</td>
+                    <td>m.s@smart.edu</td>
+                  </tr>
+                  <tr>
+                    <td>1237</td>
+                    <td>Tom Knock</td>
+                    <td>twokocks@atthedoor.com</td>
+                  </tr>
+                </tbody>
+              </table>
+        </aside>
+    </div>
+    <div class="clr"></div>
+    <footer id="mainFooter">
+        <p>&copy; State of Georgia <a href="./contact.html">Contact Us!</a></p>
+    </footer>
+    <script src="./javascript/script.js"></script>
+</body>
+</html>

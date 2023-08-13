@@ -1,0 +1,24 @@
+Reources used for this website:
+
+
+1. Banner image state (main-page): https://www.exploregeorgia.org/things-to-do
+
+2. Ga flag: https://www.britannica.com/topic/flag-of-Georgia-United-States-state-flag
+
+3. Ga Flag favicon: https://www.softicons.com/web-icons/american-states-icons-by-custom-icon-design/georgia-flag-icon
+
+4. Georgia Basic information: https://en.wikipedia.org/wiki/Georgia_(U.S._state)#:~:text=Georgia%20is%20a%20state%20in,to%20the%20west%20by%20Alabama.
+
+5. Atlanta Banner: https://unsplash.com/photos/F2PrSHG2nEk
+
+6. Atlanta information: https://en.wikipedia.org/wiki/Atlanta
+
+7. Atlanta City population and income information: https://www.census.gov/quickfacts/fact/table/atlantacitygeorgia/INC110221
+
+8. Savanna information: https://en.wikipedia.org/wiki/Savannah,_Georgia
+
+9. Savanna census information: https://www.census.gov/quickfacts/fact/table/columbuscitygeorgia,savannahcitygeorgia,US/PST045222
+
+10. Columbus Information: https://en.wikipedia.org/wiki/Columbus,_Georgia
+
+11. Contact page banner: https://www.cruiseamerica.com/rv-adventures/rv-destinations/georgia-state-parks-full-rv-hookups
